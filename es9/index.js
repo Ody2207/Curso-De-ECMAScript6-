@@ -1,3 +1,5 @@
+	// Spread Operator
+
 const obj = {
 	name: 'Oscar',
 	age: 32,
@@ -12,6 +14,8 @@ console.log(name, all);
 // let { coutntry, ...all } = obj;
 // console.log(all);
 
+
+	// Porpagation Properties
 const obj2 = {
 	name: 'Rodrigo',
 	age: 17
@@ -23,6 +27,9 @@ const obj3 = {
 }
 
 console.log(obj3);
+
+
+	// Promise Finally
 
 // Nos ayudan a poder mesclar objetos sin nesecidad de volver a hacer uno completo con 
 // todos los elementos que ya tienes
@@ -43,6 +50,8 @@ HelloWorld()
 	.catch(error => console.log(error))
 	.finally(() => console.log('Finalizo'))
 
+
+	// Regex
 // A este punto se le agregaron mejoras para poder agrupar bloques de Js y poder acceder a 
 // cada uno de ellos
 
